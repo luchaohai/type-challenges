@@ -2,16 +2,23 @@
 
 > 结构化类型系统
 
-## Basic
+## Note
 
-### Duck Typing
+1. 鸭式辨型定调了 TypeScript 是基于最终类型的形状，而不是它的声明过程。 
 
-> 鸭式辨型
+## Links
 
-在鸭式辩型中，一个对象的类型不是由其继承自哪个类决定的，而是由它当前的方法和属性决定的。换句话说，如果一个对象“走起路来像鸭子，叫起来也像鸭子”，那么它就可以被当作鸭子来对待。
+[Duck Typing](./DuckTyping.md)
+[Structural Subtyping](./StructuralSubtyping.md)
 
-#### [Case1](/cases/sturcturalTypeSytem/case1.ts)
+## Confuse（未完成部分）
 
-### Structural Subtyping
-
-> 结构子类型化
+1. *.d.ts 与一般的ts文件有什么差别？
+2. TS的命名空间是怎么配置和定义的？
+3. 鸭式辨型与结构化子类型有什么相同和不同的点？感觉说的是同一个东西。
+4. void 是什么
+5. ? 可选怎么说？
+6. 交叉如果出现同名属性会如何处理？
+7. never是什么？
+8. 元组
+9. literal type
