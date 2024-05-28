@@ -1,6 +1,9 @@
-type I1 = Person1['age' | 'name']
+namespace IndexedAccessTypesCase2 {
 
-type I2 = Person1[keyof Person1]
+  type I1 = Person['age' | 'name']
 
-type AliveOrName = 'alive' | 'name'
-type I3 = Person1[AliveOrName]
+  type I2 = Person[keyof Person]
+
+  type AliveOrName = 'alive' | 'name'
+  type I3 = Person[AliveOrName]
+}

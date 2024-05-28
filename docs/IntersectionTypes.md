@@ -14,3 +14,7 @@
 ## [Case2](/cases/IntersectionTypes/case2.ts)
 
 > 边缘情况考虑
+
+## Case3
+
+> 在声明同一interface时会进行交叉运算，对于其中的属性相同的部分，会对值进一步做交叉运算。

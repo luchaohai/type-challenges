@@ -1,6 +1,7 @@
 interface Person {
   name: string
-  age?: number
+  xixi: number
+  age?: string | number
 }
 
 type Employee = {
